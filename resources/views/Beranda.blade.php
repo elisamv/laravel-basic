@@ -25,35 +25,6 @@
         <img src="LogoHIMATIF.png" alt="Logo HIMATIF" style="max-width: 50px; margin-right: 10px;">
         <h1 style="margin: 0;">IT EXPO EVENT</h1>
     </div>
-    
-
-<!-- Tambahkan GIF di sebelah kanan -->
-
-
-    <title>IT Expo | Beranda</title>
-    <style>
-        img {
-            max-width: 50px;
-            width: 100%;
-        }
-
-        .header {
-            display: flex; /* Menggunakan Flexbox untuk menyusun secara horizontal */
-            align-items: center; /* Menyusun elemen secara vertikal di tengah */
-        }
-
-        .header img {
-            margin-right: 10px;
-            margin-left: 10px; /* Memberi jarak kanan antara gambar dan teks */
-        }
-    </style>
-</head>
-<body>
-<div class="header">
-    <img src="LogoHIMATIF.png" alt="Logo HIMATIF">
-    <h1>IT EXPO EVENT</h1>
-</div>
-
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -62,16 +33,9 @@
 
                 <a class="nav-link" href="/">Mata Lomba <span class="sr-only">(current)</span></a>
 
-                <a class="nav-link" href="/">Beranda <span class="sr-only">(current)</span></a>
-
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="Tentang">Tentang</a>
-            </li>
-            <li class="nav-item">
-
-
-                <a class="nav-link" href="Lomba">Mata Lomba</a>
             </li>
             <li class="nav-item">
 
@@ -110,24 +74,6 @@
     </div>
 
 <!-- Konten Beranda -->
-<div class="container mt-4">
-    <h2>Selamat Datang di IT Expo Event</h2>
-    <p>IT Expo Event adalah acara teknologi tahunan yang menghadirkan berbagai kompetisi, seminar, dan kegiatan terkait teknologi informasi. Kami berkomitmen untuk memajukan dan memperluas pengetahuan dalam dunia IT.</p>
-
-    <!-- Daftar Items Baru di Beranda -->
-    <h3>Apa yang Kami Tawarkan?</h3>
-    <ul>
-        <li>Lomba Karya Tulis Ilmiah (KTI)</li>
-        <li>Lomba Essay</li>
-        <li>Web Programming Competition</li>
-        <li>Cerdas Cermat IT</li>
-        <li>Turnamen Mobile Legend</li>
-        <li>Turnamen PUBG Mobile</li>
-    </ul>
-
-    <p>Daftarkan diri Anda sekarang dan bergabunglah dengan komunitas teknologi kami!</p>
-
-</div>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

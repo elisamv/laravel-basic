@@ -106,17 +106,10 @@
 
                     <a class="nav-link" href="/">Mata Lomba <span class="sr-only">(current)</span></a>
 
-                    <a class="nav-link" href="/">Beranda <span class="sr-only">(current)</span></a>
-
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Tentang">Tentang</a>
                 </li>
-
-                
-
-                <li class="nav-item">
-                    <a class="nav-link" href="Lomba">Mata Lomba</a>
                 </li>
 
                 <li class="nav-item">
