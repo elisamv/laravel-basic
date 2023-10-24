@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\LombaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,24 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [LombaController::class, "index"]); // Mengarahkan ke URL utama
+Route::get('/', function () {
+    return view('Beranda');
+});
 
-Route::get('/create', [LombaController::class, 'create']); // Mengarahkan ke halaman pembuatan entri baru
-
-Route::get('/kelas', [LombaController::class, 'index'])->name('kelas.index'); // Mengarahkan ke tampilan daftar mata kuliah
-
-Route::post('/kelas', [LombaController::class, 'store'])->name('kelas.store');
-
-Route::get('/kelas/{kelas}/edit', [LombaController::class, 'edit'])->name('kelas.edit'); // Mengarahkan ke halaman pengeditan
-
-Route::post('/kelas/{kelas}', [LombaController::class, 'update'])->name('kelas.update'); // Menyimpan pembaruan data
-Route::put('/kelas/{kelas}', [LombaController::class, 'update']); // Alternatif untuk menyimpan pembaruan data
-
-Route::delete('/kelas/{kelas}', [LombaController::class, 'destroy'])->name('kelas.destroy'); // Menghapus data
-
-Route::get('/kelas/{kelas}', [LombaController::class, 'show'])->name('kelas.show'); // Mengarahkan ke tampilan detail mata kuliah
-
-
+Route::get('/Lomba', function () {
+    return view('MataLomba');
+});
 
 Route::get('/Tentang', function () {
     return view('Tentang');
@@ -40,3 +28,5 @@ Route::get('/Tentang', function () {
 Route::get('/Kontak', function () {
     return view('Kontak');
 });
+
+

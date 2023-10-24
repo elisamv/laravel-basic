@@ -134,6 +134,7 @@
     </nav>
     <header>
         <h1>Mata Lomba - IT Expo</h1>
+<<<<<<< HEAD
         <a href="/lomba/create" class="btn btn-primary">Tambah</a>
     </header>
     <!-- Bagian header dengan judul halaman -->
@@ -150,6 +151,60 @@
     
     <!-- Baris pertama -->
     
+=======
+    </header>
+    <!-- Bagian header dengan judul halaman -->
+
+    <!-- Baris pertama -->
+    <div class="row">
+        <!-- Lomba pertama -->
+        <div class="lomba">
+            <img src="LogooKTI.png" alt="Logo KTI">
+            <h3>Lomba Karya Tulis Ilmiah (KTI)</h3>
+            <p>Perlombaan menulis karya ilmiah tentang topik IT terkini, Bisnis, Pengabdian Masyarakat, Hukum.</p>
+            <a href="#" class="button">Daftar</a>
+        </div>
+        <!-- Lomba kedua -->
+        <div class="lomba">
+            <img src="LogoEssay.png" alt="Logo Essay">
+            <h3>Lomba Essay</h3>
+            <p>Perlombaan menulis esai mengenai peran teknologi dalam masyarakat.</p>
+            <a href="#" class="button">Daftar</a>
+        </div>
+        <!-- Lomba ketiga -->
+        <div class="lomba">
+            <img src="LogoWebProgramming.png" alt="Logo Web Programming">
+            <h3>Web Programming</h3>
+            <p>Perlombaan untuk mengembangkan situs web kreatif dan fungsional.</p>
+            <a href="#" class="button">Daftar</a>
+        </div>
+    </div>
+
+    <!-- Baris kedua -->
+    <div class="row">
+        <!-- Lomba keempat -->
+        <div class="lomba">
+            <img src="LogoCerdasCermat.png" alt="Logo Cerdas Cermat IT">
+            <h3>Cerdas Cermat IT</h3>
+            <p>Perlombaan berbasis pengetahuan seputar teknologi informasi.</p>
+            <a href="#" class="button">Daftar</a>
+        </div>
+        <!-- Lomba kelima -->
+        <div class="lomba">
+            <img src="LogoMobileLegend.jpeg" alt="Logo Mobile Legend">
+            <h3>Mobile Legend</h3>
+            <p>Turnamen permainan Mobile Legends.</p>
+            <a href="#" class="button">Daftar</a>
+        </div>
+        <!-- Lomba keenam -->
+        <div class="lomba">
+            <img src="LogoPUBGMobile.png" alt="Logo PUBG Mobile">
+            <h3>PUBG Mobile</h3>
+            <p>Turnamen permainan PUBG Mobile.</p>
+            <a href="#" class="button">Daftar</a>
+        </div>
+    </div>
+>>>>>>> 3e0806c8b562b5ecbe93fda1452c2d1610550843
     <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -157,4 +212,8 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 3e0806c8b562b5ecbe93fda1452c2d1610550843
